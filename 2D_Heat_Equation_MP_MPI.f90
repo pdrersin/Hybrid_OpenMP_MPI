@@ -276,7 +276,7 @@ integer, parameter    :: id_bottom2top_1 = 1001 !message tag
 common /mpivars/myid,nsend,np
 
 
-!Periodic BC for x direction (no MPI in this direction)
+!No slip BCs for x direction (no MPI in this direction)
 
 !$omp parallel private (i,j) shared (u,nx,ny)
 !$omp do
