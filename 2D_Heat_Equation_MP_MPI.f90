@@ -29,7 +29,7 @@ include 'mpif.h'	!MPI header file
 !Physics related variables
 integer:: nx,ny,nt,nsnap,snapshot
 integer :: i,j,k
-real*8 :: dx,dy,dt,time,lx,ly,cfl,tmax
+real*8 :: dx,dy,dt,lx,ly,cfl,tmax
 real*8 :: pi,x0,y0,alpha,t,snap_time,a,b
 real*8,allocatable :: u(:,:),x(:),y(:)
 real*8,allocatable :: u1(:,:),s(:,:)
